@@ -1,0 +1,222 @@
+.famous_country {
+  padding: 10px 0 30px 10px;
+}
+.famous_country > h2 {
+  font-family: "Kalnia", serif;
+  color: #277a03;
+  font-size: 34px;
+}
+.famous_beach > h2 {
+  font-family: "Kalnia", serif;
+  color: #277a03;
+  font-size: 34px;
+}
+.name > h4 {
+  font-family: "Kalnia", serif;
+  color: #277a03;
+  font-size: 18px;
+}
+.year {
+  font-family: "Pacifico", cursive;
+}
+.domestic_package > h2 {
+  font-family: "Kalnia", serif;
+  color: #277a03;
+  font-size: 34px;
+}
+.international_package > h2 {
+  font-family: "Kalnia", serif;
+  color: #277a03;
+  font-size: 34px;
+}
+.travel_form > h1 {
+  font-family: "Kalnia", serif;
+  color: #277a03;
+  font-size: 34px;
+}
+.reviews > h2 {
+  font-family: "Kalnia", serif;
+  color: #277a03;
+  font-size: 34px;
+}
+
+.asian_beach {
+  position: relative;
+}
+.image-container {
+  position: relative;
+  padding-left: 10px;
+  color: white; /* Text color */
+}
+
+.image-text {
+  font-family: "Kalnia", serif;
+
+  position: absolute;
+  top: 85%; /* Position text vertically in the middle */
+  left: 38%; /* Position text horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center text exactly over image */
+}
+.image-text h2 {
+  font-size: 25px;
+}
+
+#beach {
+  height: 300px;
+  width: 400px;
+}
+.image-container:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.185);
+}
+.outro_video {
+  position: relative;
+  width: 100%; /* Ensure the container takes the full width */
+}
+
+.video {
+  position: relative;
+  width: 100%; /* Ensure the video takes the full width */
+}
+
+.video video {
+  width: 100%;
+  height: 550px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensure the video covers the entire area */
+}
+
+.video_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.text_overlay {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Pacifico", cursive;
+  color: #58da20;
+  animation: slideIn 1.5s forwards;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateY(150px); /* Start from a position 100px below */
+    opacity: 0; /* Start with opacity 0 */
+  }
+  100% {
+    transform: translateY(0); /* End at its original position */
+    opacity: 1; /* End with full opacity */
+  }
+}
+.text_overlay {
+  left: 50%; /* Slide in to the center */
+}
+.company_name {
+  font-size: 75px;
+  color: #82ff4c;
+  font-family: "Kalnia", serif;
+}
+.nav-link {
+  font-family: "Kalnia", serif;
+}
+
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+}
+#button {
+  font-family: "Kalnia", serif;
+}
+.card-title {
+  font-family: "Kalnia", serif;
+}
+.card-text {
+  font-family: "Josefin Sans", sans-serif;
+}
+#kerala,
+#kashmir,
+#goa,
+#meghalaya {
+  font-family: "Pacifico", cursive;
+  font-size: 26px;
+}
+#sydney,
+#rome,
+#tokyo,
+#paris {
+  font-family: "Pacifico", cursive;
+  font-size: 26px;
+}
+.icon {
+  margin-top: 190px;
+  margin-left: 9px;
+}
+.icon:hover {
+  color: #82ff4c;
+}
+.travel_form {
+  position: relative;
+}
+.btn-travel {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-flight {
+  padding: 47px 17px 75px 10px;
+}
+.form-label {
+  font-family: "Kalnia", serif;
+  color: #277a03;
+  font-size: 15px;
+}
+.form-label {
+  font-family: "Kalnia", serif;
+  color: #277a03;
+  font-size: 15px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #c6f7af;
+}
+.footer_text h2 {
+  font-family: "Kalnia", serif;
+  color: #277a03;
+  font-size: 34px;
+}
+.footer_icons i {
+  font-size: 25px;
+  color: #103101;
+}
+.footer_icons i:hover {
+  font-size: 30px;
+}
+
+.review {
+  background-color: #fff;
+  padding: 15px;
+}
+
+.profile-image {
+  margin: 0 auto;
+}
+#name {
+  font-family: "Pacifico", cursive;
+  font-size: 23px;
+}
+
+@media (max-width: 592px) {
+  .text_overlay {
+    font-size: 50px;
+  }
+}
